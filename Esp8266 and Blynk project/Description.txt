@@ -1,0 +1,8 @@
+In This project we took Esp8266 and Blynk App 
+In Blynk App- we added 2 buttons -One for each lights
+Where in one was built-in light of Led and other was connected to NodeMcu
+In Code - 1. we defined the BLYNK_PRINT Serial
+          2. we included <ESP8266WiFi.h> , <BlynkSimpleEsp8266.h>
+          2.Added our auth , wifiname,password
+          3.In setup - begin the clock
+          4.In loop - Blynk.run()
